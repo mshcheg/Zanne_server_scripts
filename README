@@ -1,0 +1,5 @@
+Shell scripts for the Zanne Lab Server.
+
+backup.sh: Creates daily backups of each users home folder, only keeps the 6 most recent backups.
+
+update_local_blastdbs.sh: Runs a weekly update of local BLAST databases, keeps a log of updates in a file that is rsynced to each users home folder.
